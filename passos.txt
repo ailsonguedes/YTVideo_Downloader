@@ -1,0 +1,70 @@
+
+---------------------------------------------------------------------------------------------
+
+Criar um ambiente virtual (python -m venv ./env)
+
+Ative o seu ambiente virtual (env/Scripts/Activate)
+
+Instale o Flask (pip install flask)
+
+Verifique a versão do Flask instalada (python -m flask --version)
+
+Fazer o arquivo de requeriments para guardar as dependências (pip freeze > requirements.txt)
+
+---------------------------------------------------------------------------------------------
+
+Criou o arquivo do servidor (app.py)
+
+Criou uma rota ('/' index)
+
+---------------------------------------------------------------------------------------------
+
+Criar um documento HTML (usar como template)
+
+Renderizar o template
+
+Templates ou rotas dinâmicas
+
+---------------------------------------------------------------------------------------------
+
+Instalar uma dependência (pip install flask-wtf)
+
+Atualizar o requirements.txt (pip freeze > requirements.txt)
+
+Importar as dependências
+
+Criar uma classe de formulário
+
+Renderizar o formulário
+
+Devolver dados recebidos pelo formulário no template
+
+Fazer refactor (levar o class NameForm e suas importações para o arquivo form.py)
+
+---------------------------------------------------------------------------------------------
+
+Refactor das configurações
+
+Instalar o Flask-Migrate (pip install Flask-Migrate)
+
+Instalar o Flask-SQLAlchemy(pacote de orm) (pip install flask-sqlalchemy)
+
+Criamos módulo de usuário com serializador
+
+---------------------------------------------------------------------------------------------
+
+flask db init : vai inicializar o nosso banco de dados
+flask db migrate : vai gerar as nossas migrações
+flask db upgrade : vai aplicar as migrações no nosso banco de dados
+
+---------------------------------------------------------------------------------------------
+
+Importamos o banco de dados no dbeaver
+
+Utilizou o dbeaver para visualizar as tabelas (migrações e User)
+
+
+---------------------------------------------------------------------------------------------
+Subir aplicação (flask run)
+
+
